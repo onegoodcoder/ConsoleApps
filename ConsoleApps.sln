@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopApp", "WhileLoopAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteToFileApp", "WriteToFileApp\WriteToFileApp.csproj", "{CB677B8E-2269-4064-BB59-A650AEF66186}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "StringInterpolation\StringInterpolation.csproj", "{FD89D5D4-B7CC-428F-8BCB-1C3A2C0402F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTrim", "StringTrim\StringTrim.csproj", "{4B3B4624-439F-44C2-9F5C-4489D087865C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{CB677B8E-2269-4064-BB59-A650AEF66186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB677B8E-2269-4064-BB59-A650AEF66186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB677B8E-2269-4064-BB59-A650AEF66186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD89D5D4-B7CC-428F-8BCB-1C3A2C0402F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD89D5D4-B7CC-428F-8BCB-1C3A2C0402F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD89D5D4-B7CC-428F-8BCB-1C3A2C0402F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD89D5D4-B7CC-428F-8BCB-1C3A2C0402F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3B4624-439F-44C2-9F5C-4489D087865C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3B4624-439F-44C2-9F5C-4489D087865C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3B4624-439F-44C2-9F5C-4489D087865C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3B4624-439F-44C2-9F5C-4489D087865C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
