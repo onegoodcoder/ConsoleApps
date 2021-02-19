@@ -39,11 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranchesAndLoops", "Branche
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsAndCollections", "ListsAndCollections\ListsAndCollections.csproj", "{58C83B43-1B46-4B44-8D6C-1FE0B683D2F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortSerchIndex", "SortSerchIndex\SortSerchIndex.csproj", "{5FFA4BA7-FFAA-4940-B7C4-52B4DF4FA330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortSerchIndex", "SortSerchIndex\SortSerchIndex.csproj", "{5FFA4BA7-FFAA-4940-B7C4-52B4DF4FA330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsOfOtherTypes", "ListsOfOtherTypes\ListsOfOtherTypes.csproj", "{4FFDEF7E-4EFF-442C-AB1B-68C6D6FB8731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsOfOtherTypes", "ListsOfOtherTypes\ListsOfOtherTypes.csproj", "{4FFDEF7E-4EFF-442C-AB1B-68C6D6FB8731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{7DCC0930-879C-43D1-A519-88367D27396E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{7DCC0930-879C-43D1-A519-88367D27396E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySuperBank", "MySuperBank\MySuperBank.csproj", "{6FFCBDF9-3927-44FB-9B33-1364280C893A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{7DCC0930-879C-43D1-A519-88367D27396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCC0930-879C-43D1-A519-88367D27396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCC0930-879C-43D1-A519-88367D27396E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFCBDF9-3927-44FB-9B33-1364280C893A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFCBDF9-3927-44FB-9B33-1364280C893A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFCBDF9-3927-44FB-9B33-1364280C893A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFCBDF9-3927-44FB-9B33-1364280C893A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
