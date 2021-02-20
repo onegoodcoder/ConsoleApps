@@ -40,13 +40,43 @@ namespace MySuperBank
         }
         public void MakeDeposit(decimal amount, DateTime date, string note)
         {
+
+            if (amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
+            }
             var deposit = new Transaction(amount, date, note);
             allTransactions.Add(deposit);
         }
         public void MakeWithDrawl(decimal amount, DateTime date, string note)
         {
+            if (amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
+            }
+            if (Balance - amount < 0)
+            {
+                throw new InvalidOperationException("Not sufficient funds for this withdrawal");
+            }
             var withdrawl = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawl);
+         
+        }
+        public string GetAccountHistory()
+        {
+            var report = new StringBuilder();
+
+            //header
+            report.AppendLine("Date\t\t Ammount\t\tNote\t\tBalance");
+            foreach (var item in allTransactions)
+            {
+                //row
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{item.Notes}");
+            }
+
+            //footer
+            report.AppendLine($"balance is{this.Balance}");
+            return report.ToString();
         }
     }
 }
